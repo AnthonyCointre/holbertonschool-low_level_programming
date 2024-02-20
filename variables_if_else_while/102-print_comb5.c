@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Imprimer toutes les combinaisons possibles de deux nombres à deux chiffres.
+ * main - Imprimer toutes les combinaisons possibles de deux nombres à deux chiffres.
  */
 int main(void)
 {
