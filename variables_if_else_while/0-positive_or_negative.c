@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-	Attribuer un nombre aléatoire à la variable n à chaque fois qu'il sera exécuté.
-	Imprimer si le nombre stocké dans la variable n est positif ou négatif.
+/**
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
+ *
+ * Return: Always 0.
 */
 int main(void)
 {
