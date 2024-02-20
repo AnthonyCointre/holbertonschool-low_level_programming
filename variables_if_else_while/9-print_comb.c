@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/**
- * main - Prints all possible combinations of single-digit numbers.
- *
- * Return: Always 0.
- */
+/*
+	Imprimer toutes les combinaisons possibles de nombres à un chiffre.
+*/
 int main(void)
 {
 	int num;
