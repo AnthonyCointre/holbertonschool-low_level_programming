@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*
-	Imprimer l’alphabet minuscule à l’envers, suivi d’une nouvelle ligne.
-*/
+/**
+ * main - Prints the lowercase alphabet in reverse.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	char letter;
