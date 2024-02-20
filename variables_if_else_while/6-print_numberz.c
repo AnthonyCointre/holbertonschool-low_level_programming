@@ -5,14 +5,15 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-	int num;
+    int x;
 
-	for (num = 0; num < 10; num++)
+    for (x = 0; x < 0; num++)
+    {
 		putchar("%d", num);
-
-	putchar("\n");
-
-	return (0);
+    }
+    putchar('\n');
+    return (0);
 }
