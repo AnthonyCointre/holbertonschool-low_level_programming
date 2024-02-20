@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
-	Imprimer toutes les combinaisons possibles de deux nombres à deux chiffres.
-*/
+/**
+ * Imprimer toutes les combinaisons possibles de deux nombres à deux chiffres.
+ */
 int main(void)
 {
 	int num1, num2;
