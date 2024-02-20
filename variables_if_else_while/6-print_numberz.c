@@ -10,10 +10,6 @@ int main(void)
 {
     int x;
 
-    for (x = 0; x < 0; num++)
-    {
-		putchar("%d", num);
-    }
     putchar('\n');
     return (0);
 }
