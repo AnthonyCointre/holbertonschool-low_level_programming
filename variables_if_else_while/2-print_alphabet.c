@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/**
- * main - Prints the alphabet in lowercase.
- *
- * Return: Always 0.
- */
+/*
+	Imprimer l'alphabet en minuscules, suivi d'une nouvelle ligne.
+*/
 int main(void)
 {
 	char letter;
