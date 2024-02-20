@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/**
- * main - Prints all the numbers of base 16 in lowercase.
- *
- * Return: Always 0.
- */
+/*
+	Imprimer tous les nombres de base 16 en minuscules, suivis d'une nouvelle ligne.
+*/
 int main(void)
 {
 	int num;
