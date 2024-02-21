@@ -1,11 +1,20 @@
-#include <stdio.h>
-/**
- * main - code to put a message
- * Return: Always 0
- */
+#include "main.h"
 
+/**
+ * main -
+ * Return -
+ */
 int main(void)
 {
-	puts("_putchar \n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
