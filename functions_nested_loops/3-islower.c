@@ -3,7 +3,7 @@
 
 /**
  * _islower - a
- * @c:
+ * @c: a
  * Return:
  */
 int _islower(int c)
