@@ -6,12 +6,12 @@
 
 3-name = compiler un fichier C "$CFILE" et créer un exécutable nommé "cisfun"
 
-4-puts.c = imprimer exactement "La programmation, c'est comme construire un puzzle multilingue, suivi d'une nouvelle ligne
+4-puts.c = imprimer exactement "Programming is like building a multilingual puzzle, suivi d'une nouvelle ligne
 
-5-printf.c = imprimer exactement avec la grammaire appropriée, mais le résultat est une œuvre d'art, suivie d'une nouvelle ligne
+5-printf.c = imprimer exactement with proper grammar, but the outcome is a piece of art, , suivie d'une nouvelle ligne
 
 6-size.c = imprimer la taille de différents types sur l'ordinateur sur lequel il est compilé et exécuté
 
-100-intel = génèrer le code assembleur (syntaxe Intel) d'un code C et l'enregistre dans un fichier de sortie
+100-intel = génèrer le code assembleur d'un code C et l'enregistre dans un fichier de sortie
 
-101-quote.c = imprimer exactement et cette œuvre d'art est utile " - Dora Korpar, 19/10/2015, suivie d'une nouvelle ligne, à l'erreur standard
+101-quote.c = imprimer exactement and that piece of art is useful" - Dora Korpar, 2015-10-19, suivie d'une nouvelle ligne, à l'erreur standard

@@ -1,5 +1,7 @@
 0-positive_or_negative.c = attribuer un nombre aléatoire à la variable n à chaque fois qu'elle est exécutée. Complétez le code source afin d'imprimer si le nombre stocké dans la variable n est positif ou négatif.
 
+1-last_digit.c = attribuer un nombre aléatoire à la variable n à chaque fois qu'elle est exécutée. Complétez le code source afin d'imprimer le dernier chiffre du numéro stocké dans la variable n.
+
 2-print_alphabet.c = attribuer un nombre aléatoire à la variable n à chaque fois qu'elle est exécutée. Complétez le code source afin d'imprimer le dernier chiffre du numéro stocké dans la variable n.
 
 3-print_alphabets.c = imprimer l'alphabet en minuscules, suivi d'une nouvelle ligne.
