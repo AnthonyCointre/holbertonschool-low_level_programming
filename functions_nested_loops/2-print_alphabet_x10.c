@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - a
- * Return:
+ * Return: a
  */
 
 void print_alphabet_x10(void)
