@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _abs - 
- * @n:
+ * _abs - a
+ * @n: a
  *
- * Return:
+ * Return: a
  */
 int _abs(int n)
 {
