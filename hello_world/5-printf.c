@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - texto
+ * main - a
  *
- * Return: text in printf
+ * Return: a
  */
 
 int main(void)
