@@ -4,7 +4,6 @@
 /**
  * _islower - a
  * @c: a
- * Return:
  */
 int _islower(int c)
 {
