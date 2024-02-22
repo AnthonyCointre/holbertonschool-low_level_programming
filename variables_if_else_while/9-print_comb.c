@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of single-digit numbers.
+ * main - a
  *
- * Return: Always 0.
+ * Return: a
  */
 int main(void)
 {
