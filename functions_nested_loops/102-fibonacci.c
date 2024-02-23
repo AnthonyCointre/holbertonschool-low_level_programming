@@ -2,29 +2,26 @@
 
 /**
  * main - a
- * 
+ *
  * Return: a
  */
 int main(void)
 {
-	long int i, j, k, next;
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	j = 1;
-
-	k = 2;
-
-	for (i = 1; i <= 50; ++i)
+	for (count = 0; count < 50; count++)
 	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
-		}
-		next = j + k;
-		j = k;
-		k = next;
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 
 	return (0);
