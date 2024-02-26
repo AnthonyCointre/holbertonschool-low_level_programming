@@ -2,7 +2,7 @@
 
 
 /**
- * _isupper( - a
+ * _isupper - a
  * @c: a
  *
  * Return: a
