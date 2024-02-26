@@ -1,11 +1,13 @@
 #include "main.h"
 
+
 /**
- * _isupper - a
+ * _isupper( - a
+ * @c: a
  *
- * return: a
-*/
-int _isupper(int c);
+ * Return: a
+ */
+int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
 }
