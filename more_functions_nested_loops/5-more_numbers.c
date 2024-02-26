@@ -11,7 +11,7 @@ void more_numbers(void)
 	int b;
 
 	for (a = 0; a < 10; a++)
-    {
+	{
 		for (b = 0 ; b < 15 ; b++)
 		{
 			if (b > 9)
@@ -23,5 +23,5 @@ void more_numbers(void)
 		}
 
 		_putchar('\n');
-    }
+	}
 }
