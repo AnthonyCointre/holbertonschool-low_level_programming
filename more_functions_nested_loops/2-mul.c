@@ -2,7 +2,6 @@
 
 /**
  * mul - a
- * @c: a
  *
  * Return: a
  */
