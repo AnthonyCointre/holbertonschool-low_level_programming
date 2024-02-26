@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * _isupper - a
  * @c: a
