@@ -5,3 +5,5 @@ variables_if_else_while
 functions_nested_loops
 
 more_functions_nested_loops
+
+pointers_arrays_strings
