@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - a
+ * puts2 - a
  * @str: a
  *
  * Return: a
