@@ -19,5 +19,3 @@
 9-strcpy.c = copier la chaîne pointée par src, y compris l'octet nul de fin (\0), dans le tampon pointé par dest.
 
 100-atoi.c = convertir une chaîne en entier.
-
-101-keygen.c = génèrer des mots de passe aléatoires valides pour le programme 101-crackme.
