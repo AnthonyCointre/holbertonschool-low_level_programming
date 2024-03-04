@@ -3,9 +3,9 @@
 
 /**
  * _memset - a
- * @s: pointeur de zone mémoire
- * @b: octet constant
- * @n: nombre d'octets
+ * @s: a
+ * @b: a
+ * @n: a
  *
  * Return: a
  */
