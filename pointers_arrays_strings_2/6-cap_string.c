@@ -1,47 +1,33 @@
 #include "main.h"
-
 /**
-* is_sep - a
-* @s: a
-*
-* Return: a
-*/
-int is_sep(char s)
-{
-	char sep[] = {'\t', '\n', ' ', ',', ';', '!',
-		      '.', '?', '\"', '(', ')', '{', '}'};
-	int len = 0;
-
-	while (sep[len] != '\0')
-	{
-		if (s == sep[len])
-			return (1);
-		len++;
-	}
-	return (0);
-}
-
-/**
-* cap_string - a
-* @s: a
-*
-* Return: a
-*/
+ *cap_string - a
+ *@s: a
+ *
+ *Return: a
+ */
 char *cap_string(char *s)
 {
-	int sep, len;
+	int len;
 
-	sep = 1;
 	len = 0;
 	while (s[len] != '\0')
 	{
-		if (sep == 1 && (s[len] >= 'a' && s[len] <= 'z'))
+		if (s[0] >= 97 && s[0] <= 122)
 		{
-			s[len] -= 32;
-			sep = 0;
+			s[0] = s[0] - 32;
 		}
-		sep = is_sep(s[len]);
+		if (s[len] == ' ' || s[len] == '\t' || s[len] == '\n'
+		    || s[len] == ',' || s[len] == ';' || s[len] == '.'
+		    || s[len] == '.' || s[len] == '!' || s[len] == '?'
+		    || s[len] == '"' || s[len] == '(' || s[len] == ')'
+		    || s[len] == '{' || s[len] == '}')
+		{
+			if (s[len + 1] >= 97 && s[len + 1] <= 122)
+			{
+				s[len + 1] = s[len + 1] - 32;
+			}
+		}
 		len++;
-}
+	}
 	return (s);
 }
