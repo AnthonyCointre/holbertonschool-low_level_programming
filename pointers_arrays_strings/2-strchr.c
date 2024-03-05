@@ -11,14 +11,12 @@ char *_strchr(char *s, char c)
 {
 	int len;
 
-	while (s[len] >= '\0')
+	for (len = 0; s[len] >= '\0'; len++)
 	{
 		if (s[len] == c)
 		{
 			return (s + len);
 		}
-
-		len++;
 	}
 
 	return ('\0');
