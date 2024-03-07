@@ -2,10 +2,12 @@
 
 /**
  * main - a
+ * @argc: a
+ * @argv: a
  *
  * Return: a
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int count;
 
