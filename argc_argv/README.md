@@ -7,3 +7,5 @@
 3-mul.c = multiplier deux nombres.
 
 4-add.c = ajouter des nombres positifs.
+
+100-change.c = imprime le nombre minimum de pièces pour rendre la monnaie contre une somme d'argent.
