@@ -13,3 +13,5 @@
 7-print_chessboard.c = imprimer l'échiquier.
 
 8-print_diagsums.c = imprimer la somme des deux diagonales d'une matrice carrée d'entiers.
+
+100-set_string.c = définir la valeur d'un pointeur sur un caractère.
