@@ -11,3 +11,5 @@
 5-sqrt_recursion.c = renvoyer la racine carrée naturelle d'un nombre.
 
 6-is_prime_number.c = renvoyer 1 si l'entier d'entrée est un nombre premier, sinon renvoyer 0.
+
+100-is_palindrome.c = renvoyer 1 si une chaîne est un palindrome et 0 sinon.
