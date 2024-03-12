@@ -6,4 +6,16 @@ functions_nested_loops
 
 more_functions_nested_loops
 
-pointers_arrays_strings
+pointers_arrays_strings_1
+
+pointers_arrays_strings_2
+
+pointers_arrays_strings_3
+
+argc_argv
+
+recursion
+
+malloc_free
+
+more_malloc_free
