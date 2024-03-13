@@ -5,6 +5,7 @@
  * @b: a
  * Return: a
  */
+
 void *malloc_checked(unsigned int b)
 {
 	int *i;
