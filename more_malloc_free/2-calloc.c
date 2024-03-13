@@ -7,29 +7,30 @@
  *
  * Return: a
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *array;
-	unsigned int array_size, i;
+	char *s;
+	unsigned int size, i;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 
-	array_size = nmemb * size;
-	array = malloc(array_size);
+	size = nmemb * size;
+	s = malloc(size);
 
-	if (array == NULL)
+	if (s == NULL)
 	{
 		return (NULL);
 	}
 
-	while (i < array_size)
+	while (i < size)
 	{
-		array[i] = 0;
+		s[i] = 0;
 		i++;
 	}
 
-	return (array);
+	return (s);
 }
