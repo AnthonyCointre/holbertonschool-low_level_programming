@@ -5,4 +5,3 @@
 2-calloc.c = allouer de la mémoire pour un tableau, en utilisant malloc.
 
 3-array_range.c = créer un tableau d'entiers.
-²
