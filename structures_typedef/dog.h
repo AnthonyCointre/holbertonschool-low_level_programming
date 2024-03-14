@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct dog - a
  * @name: a
@@ -9,7 +12,7 @@
 
 struct dog
 {
-    char *name;
-    float age;
-    char *owner;
+	char * name;
+	float age;
+	char * owner;
 };
