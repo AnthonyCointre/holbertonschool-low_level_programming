@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - a
@@ -8,7 +8,7 @@
  * @owner: a
  *
  * Description: a
-*/
+ */
 
 struct dog
 {
@@ -16,3 +16,4 @@ struct dog
 	float age;
 	char *owner;
 };
+#endif
