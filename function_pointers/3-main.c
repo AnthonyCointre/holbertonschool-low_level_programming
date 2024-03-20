@@ -1,10 +1,11 @@
 #include "3-calc.h"
 
 /**
- * main - main function
- * @argc: argument count
- * @argv: string of arguments in array
- * Return: 0
+ * main - a
+ * @argc: a
+ * @argv: a
+ *
+ * Return: a
  */
 
 int main(int argc, char *argv[])
@@ -17,6 +18,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
+
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
@@ -24,6 +26,7 @@ int main(int argc, char *argv[])
 	}
 
 	operator = get_op_func(argv[2]);
+
 	if (operator == NULL)
 	{
 		printf("Error\n");
