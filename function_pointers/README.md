@@ -4,3 +4,4 @@
 
 2-int_index.c = rechercher un entier.
 
+3-op_functions.c = effectuer des opérations simples.
