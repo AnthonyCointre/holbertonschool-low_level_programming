@@ -19,7 +19,6 @@ int op_add(int a, int b)
  * @b: a
  *
  * Return: a
-
  */
 
 int op_sub(int a, int b)
