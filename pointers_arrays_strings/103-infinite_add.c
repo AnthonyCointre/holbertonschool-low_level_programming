@@ -39,16 +39,16 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			n2++;
 	}
 
-	if (carry)
-	{
-		if (index < 0)
-			return (0);
-
-		r[index--] = '1';
-	}
+	while (r[index + 1] == '0')
+		index++;
 
 	if (index >= 0)
-		memmove(r, r + index + 1, size_r - index - 1);
+	{
+		int i;
+
+		for (i = 0; index + i < size_r; i++)
+			r[i] = r[index + i];
+	}
 
 	return (r);
 }
