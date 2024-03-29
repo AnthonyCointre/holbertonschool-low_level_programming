@@ -1,4 +1,70 @@
 #include"main.h"
+
+/**
+ * add_helper - a
+ * @n1: a
+ * @n2: a
+ * @r: a
+ * @size_r: a
+ * @carry: a
+*/
+char *add_helper(char *n1, char *n2, char *r, int size_r, int carry)
+{
+    int index = 0;
+
+    if (n1 == r - 1 && n2 == r - 1)
+    {
+        if (carry == 1)
+            r[index] = '1';
+        else
+            r[index] = '\0';
+        return r;
+    }
+
+    if (*n1 && *n2)
+    {
+        r[index] = *n1 - '0' + *n2 + carry;
+        carry = 0;
+        if (r[index] > '9')
+        {
+            carry = 1;
+            r[index] -= 10;
+        }
+        index++;
+        n1--;
+        n2--;
+    }
+    else if (*n1)
+    {
+        r[index] = *n1 + carry;
+        carry = 0;
+        if (r[index] > '9')
+        {
+            carry = 1;
+            r[index] -= 10;
+        }
+        index++;
+        n1--;
+    }
+    else if (*n2)
+    {
+        r[index] = *n2 + carry;
+        carry = 0;
+        if (r[index] > '9')
+        {
+            carry = 1;
+            r[index] -= 10;
+        }
+        index++;
+        n2--;
+    }
+
+    if (size_r == index && (*n1 || *n2 || carry == 1))
+        return 0;
+
+    return add_helper(n1, n2, r, size_r, carry);
+}
+
 /**
 * infinite_add - adds two integers stored as strings
 *
@@ -12,43 +78,16 @@
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int carry = 0, index = size_r - 1;
+    int carry = 0;
 
-	r[index--] = '\0';
+    while (*n1)
+        n1++;
+    while (*n2)
+        n2++;
+    size_r--;
+    r[size_r] = '\0';
+    n1--;
+    n2--;
 
-	while (*n1 || *n2 || carry)
-	{
-		int sum = carry;
-
-		if (*n1)
-			sum += *n1 - '0';
-		if (*n2)
-			sum += *n2 - '0';
-
-		carry = sum / 10;
-		sum %= 10;
-
-		if (index < 0)
-			return (0);
-
-		r[index--] = sum + '0';
-
-		if (*n1)
-			n1++;
-		if (*n2)
-			n2++;
-	}
-
-	while (r[index + 1] == '0')
-		index++;
-
-	if (index >= 0)
-	{
-		int i;
-
-		for (i = 0; index + i < size_r; i++)
-			r[i] = r[index + i];
-	}
-
-	return (r);
+    return add_helper(n1, n2, r, size_r, carry);
 }
