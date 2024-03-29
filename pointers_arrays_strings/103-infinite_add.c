@@ -15,8 +15,7 @@
 * return (0);
 */
 char *calculate_remaining(char *n1, char *n2, char *r, int size_r, int index,
-
-						int carry, char *s1, char *s2)
+int carry, char *s1, char *s2)
 {
 	while (s1 != n1 - 1)
 	{
