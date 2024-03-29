@@ -62,7 +62,7 @@ char *add_helper(char *n1, char *n2, char *r, int size_r, int carry)
     if (size_r == index && (*n1 || *n2 || carry == 1))
         return 0;
 
-    return add_helper(n1, n2, r, size_r, carry);
+    return (add_helper);
 }
 
 /**
@@ -89,5 +89,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
     n1--;
     n2--;
 
-    return add_helper(n1, n2, r, size_r, carry);
+    return (add_helper);
 }
