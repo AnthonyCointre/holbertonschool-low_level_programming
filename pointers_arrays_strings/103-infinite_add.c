@@ -45,7 +45,7 @@ int carry, char *s1, char *s2)
 		if (size_r == index && (s2 != n2 - 1 || carry == 1))
 			return (0);
 	}
-	return (handle_final_carry(r, index, carry));
+	return handle_final_carry(r, index, carry);
 }
 
 /**
@@ -88,5 +88,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (size_r == index && (s1 != n1 - 1 || s2 != n2 - 1 || carry == 1))
 			return (0);
 	}
-	return (calculate_remaining(n1, n2, r, size_r, index, carry, s1, s2));
+	return calculate_remaining(n1, n2, r, size_r, index, carry, s1, s2);
 }
