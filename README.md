@@ -19,3 +19,11 @@ recursion
 malloc_free
 
 more_malloc_free
+
+structures_typedef
+
+function_pointers
+
+variadic_functions
+
+singly_linked_lists
