@@ -9,3 +9,7 @@
 4-clear_bit.c = définir la valeur d'un bit à 0 à un index donné.
 
 5-flip_bits.c = renvoyer le nombre de bits que vous auriez besoin de retourner pour passer d'un nombre à un autre.
+
+100-get_endianness.c = vérifier le boutisme.
+
+101-password = trouver le mot de passe d'un programme.
